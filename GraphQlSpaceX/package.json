@@ -1,0 +1,25 @@
+{
+  "name": "graphqlspacex",
+  "version": "1.0.0",
+  "description": "This project lists missions of SpceX",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "keywords": [
+    "GraphQl",
+    "SpaceX"
+  ],
+  "author": "Inaam Ullah",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
